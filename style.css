@@ -21,7 +21,7 @@ body {
 .banner { text-align: center;
 }
 }
-.centered-main-page-element {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -31,7 +31,7 @@ body {
     display: inline-block;
     flex-grow: 1
 }
-.task-row-wrapper {
+.task {
     display: flex;
 }
 ul {
@@ -83,7 +83,7 @@ input[type="text"]:focus {
     color: #333;
 }
 
-/* New Task */
+/* New task */
 label[for='new-task'] {
     display: block;
     margin: 0 0 20px;
@@ -92,7 +92,7 @@ input#new-task {
     width: 318px;
 }
 
-/* Task list */
+/* task list */
 li {
     overflow: hidden;
     padding: 20px 0;
@@ -133,7 +133,7 @@ ul#completed-tasks label {
     color: #888;
 }
 
-/* Edit Task */
+/* Edit task */
 ul li input[type=text] {
     display:none
 }
