@@ -38,7 +38,8 @@ ul {
     margin:0;
     padding: 0px;
 }
-li, .main_to-do {
+li, 
+.main_to-do {
     list-style: none;
 }
 input,button{
@@ -115,7 +116,7 @@ li > label {
     font-size: 18px;
     width: 226px;
 }
-li >    input[type="text"] {
+li > input[type="text"] {
     width: 226px
 }
 .delete_btn img {
